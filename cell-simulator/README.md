@@ -2,12 +2,12 @@
 
 The "game" is a zero-player game, meaning that its evolution is determined by its initial state, requiring no further input. One interacts with the Cell Simulator by creating an initial configuration and observing how it evolves. It follows these rules of regeneration:
 
-A Cell with fewer than two live neighbours dies of under-population.
-A Cell with 2 or 3 live neighbours lives on to the next generation.
-A Cell with more than 3 live neighbours dies of overcrowding.
-An empty Cell with exactly 3 live neighbours "comes to life".
-A Cell who "comes to life" outside the board should wrap at the other side of the board.
-Once the next generation is done, User can trigger "next generation" again.
+### A Cell with fewer than two live neighbours dies of under-population.
+### A Cell with 2 or 3 live neighbours lives on to the next generation.
+### A Cell with more than 3 live neighbours dies of overcrowding.
+### An empty Cell with exactly 3 live neighbours "comes to life".
+### A Cell who "comes to life" outside the board should wrap at the other side of the board.
+### Once the next generation is done, User can trigger "next generation" again.
 extreme cell simulator
 
 ## To install: npm install
